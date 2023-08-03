@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :m_pesas
   resources :profiles
 
   post '/signup', to: 'sessions#create'
